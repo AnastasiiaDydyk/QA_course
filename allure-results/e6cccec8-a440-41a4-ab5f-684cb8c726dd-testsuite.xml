@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621102149534' stop='1621102158378'>
+    <name>dtf.play.test.js</name>
+    <title>dtf.play.test.js</title>
+    <test-cases>
+        <test-case start='1621102149534' status='failed' stop='1621102158153'>
+            <name>open main page find article</name>
+            <title>open main page find article</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>: Timeout - Async callback was not invoked within the 8000 ms timeout specified by jest.setTimeout.</message>
+                <stack-trace>Timeout - Async callback was not invoked within the 8000 ms timeout specified by jest.setTimeout.Error: 
+                    at new Spec (/Users/nastya/jest0507/node_modules/jest-jasmine2/build/jasmine/Spec.js:116:22)
+                    at new Spec (/Users/nastya/jest0507/node_modules/jest-jasmine2/build/setup_jest_globals.js:78:9)
+                    at specFactory (/Users/nastya/jest0507/node_modules/jest-jasmine2/build/jasmine/Env.js:523:24)
+                    at Env.it (/Users/nastya/jest0507/node_modules/jest-jasmine2/build/jasmine/Env.js:592:24)
+                    at Env.it (/Users/nastya/jest0507/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:134:23)
+                    at it (/Users/nastya/jest0507/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:100:21)
+                    at Object.&lt;anonymous> (/Users/nastya/jest0507/dtf.play.test.js:22:3)
+                    at Runtime._execModule (/Users/nastya/jest0507/node_modules/jest-runtime/build/index.js:1299:24)
+                    at Runtime._loadModule (/Users/nastya/jest0507/node_modules/jest-runtime/build/index.js:898:12)
+                    at Runtime.requireModule (/Users/nastya/jest0507/node_modules/jest-runtime/build/index.js:746:10)
+                    at jasmine2 (/Users/nastya/jest0507/node_modules/jest-jasmine2/build/index.js:230:13)
+                    at runTestInternal (/Users/nastya/jest0507/node_modules/jest-runner/build/runTest.js:380:22)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at runTest (/Users/nastya/jest0507/node_modules/jest-runner/build/runTest.js:472:34)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

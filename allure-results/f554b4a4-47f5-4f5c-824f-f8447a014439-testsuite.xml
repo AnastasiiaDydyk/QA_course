@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621082584226' stop='1621082587223'>
+    <name>dtf.play.test.js</name>
+    <title>dtf.play.test.js</title>
+    <test-cases>
+        <test-case start='1621082584226' status='passed' stop='1621082587002'>
+            <name>open main page find article</name>
+            <title>open main page find article</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

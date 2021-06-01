@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621083416578' stop='1621083420991'>
+    <name>dtf.play.test.js</name>
+    <title>dtf.play.test.js</title>
+    <test-cases>
+        <test-case start='1621083416578' status='failed' stop='1621083420764'>
+            <name>open main page find article</name>
+            <title>open main page find article</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "https://dtf.ru/games/details/all"
+                Received: "https://dtf.ru/games/details"</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "https://dtf.ru/games/details/all"
+                Received: "https://dtf.ru/games/details"
+                    at Object.&lt;anonymous> (/Users/nastya/jest0507/dtf.play.test.js:39:29)
+                    at runNextTicks (internal/process/task_queues.js:58:5)
+                    at processImmediate (internal/timers.js:434:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621015502504' stop='1621015502649'>
+    <name>homework_2</name>
+    <title>homework_2</title>
+    <test-cases>
+        <test-case start='1621015502504' status='failed' stop='1621015502648'>
+            <name>encountered a declaration exception</name>
+            <title>encountered a declaration exception</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: this.timeout is not a function</message>
+                <stack-trace>TypeError: this.timeout is not a function
+                    at Suite.&lt;anonymous> (/Users/nastya/jest0507/homework2.spec.js:6:8)
+                    at addSpecsToSuite (/Users/nastya/jest0507/node_modules/jest-jasmine2/build/jasmine/Env.js:444:51)
+                    at Env.describe (/Users/nastya/jest0507/node_modules/jest-jasmine2/build/jasmine/Env.js:414:11)
+                    at describe (/Users/nastya/jest0507/node_modules/jest-jasmine2/build/jasmine/jasmineLight.js:88:18)
+                    at Object.&lt;anonymous> (/Users/nastya/jest0507/homework2.spec.js:5:1)
+                    at Runtime._execModule (/Users/nastya/jest0507/node_modules/jest-runtime/build/index.js:1299:24)
+                    at Runtime._loadModule (/Users/nastya/jest0507/node_modules/jest-runtime/build/index.js:898:12)
+                    at Runtime.requireModule (/Users/nastya/jest0507/node_modules/jest-runtime/build/index.js:746:10)
+                    at jasmine2 (/Users/nastya/jest0507/node_modules/jest-jasmine2/build/index.js:230:13)
+                    at runTestInternal (/Users/nastya/jest0507/node_modules/jest-runner/build/runTest.js:380:22)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at runTest (/Users/nastya/jest0507/node_modules/jest-runner/build/runTest.js:472:34)
+                    at Object.worker (/Users/nastya/jest0507/node_modules/jest-runner/build/testWorker.js:133:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

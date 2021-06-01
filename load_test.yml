@@ -1,0 +1,9 @@
+config:
+    target: "https://artillery.io"
+    phases:
+        - duration: 5
+          arrivalRate: 2
+scenarios:
+  - flow:
+        - get:
+            url: "/docs/guides/overview/welcome.html"

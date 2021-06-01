@@ -1,0 +1,80 @@
+{
+  "id": "0ece9a46-a218-455b-8b90-9ba2931fe4c2",
+  "version": "2.0",
+  "name": "AQA0507",
+  "url": "https://dou.ua",
+  "tests": [{
+    "id": "e3046c88-dbfe-4094-9895-306d47e7158d",
+    "name": "check_dou_tabs",
+    "commands": [{
+      "id": "e3f91c5a-961b-43fc-ab84-32d3e88c1507",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c11c5fd-8f92-487b-9d0f-158cebd2d468",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb9e7929-113f-41a6-a533-1d3ff7c57199",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-head li:nth-child(5) > a",
+      "targets": [
+        ["css=.b-head li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Зарплаты')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://jobs.dou.ua/salaries/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb99a61a-de06-4367-a675-ea57cd2bebeb",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(1) > li:nth-child(6) > a",
+      "targets": [
+        ["css=ul:nth-child(1) > li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Работа')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/header/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://jobs.dou.ua/')])[2]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d41cef58-cc3d-48c1-8c2f-16cdf15c039b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-last > a",
+      "targets": [
+        ["css=.m-last > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Календарь')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/header/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://dou.ua/calendar/')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb13d8f0-8c57-4c40-b275-fdf624f72493",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e1fd5a18-5f94-4b4e-8374-00845f6a3b0f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e3046c88-dbfe-4094-9895-306d47e7158d"]
+  }],
+  "urls": ["https://dou.ua/"],
+  "plugins": []
+}

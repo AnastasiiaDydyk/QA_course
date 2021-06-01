@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622487553455' stop='1622487553469'>
+    <name>reqres_in.spec.js</name>
+    <title>reqres_in.spec.js</title>
+    <test-cases>
+        <test-case start='1622487553455' status='failed' stop='1622487553457'>
+            <name>login</name>
+            <title>login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ReferenceError: cy is not defined</message>
+                <stack-trace>ReferenceError: cy is not defined
+                    at Object.&lt;anonymous> (/Users/nastya/jest0507/reqres_in.spec.js:1:22)
+                    at Object.asyncJestTest (/Users/nastya/jest0507/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+                    at /Users/nastya/jest0507/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+                    at new Promise (&lt;anonymous>)
+                    at mapper (/Users/nastya/jest0507/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+                    at /Users/nastya/jest0507/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

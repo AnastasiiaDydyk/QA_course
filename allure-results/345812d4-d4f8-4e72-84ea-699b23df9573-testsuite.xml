@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621165463220' stop='1621165466075'>
+    <name>homework_makeup2.play.test.js</name>
+    <title>homework_makeup2.play.test.js</title>
+    <test-cases>
+        <test-case start='1621165463220' status='passed' stop='1621165465843'>
+            <name>open main page and use selectors</name>
+            <title>open main page and use selectors</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

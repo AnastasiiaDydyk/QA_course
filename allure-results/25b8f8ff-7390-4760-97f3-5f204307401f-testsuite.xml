@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621164048765' stop='1621164051739'>
+    <name>homework_makeup2.play.test.js</name>
+    <title>homework_makeup2.play.test.js</title>
+    <test-cases>
+        <test-case start='1621164048765' status='failed' stop='1621164051517'>
+            <name>open main page and use selectors</name>
+            <title>open main page and use selectors</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "https://makeup.com.ua/categorys/3/"
+                Received: "Парфюмерия — купить оригинальные духи с бесплатной доставкой по Украине | Makeup.ua"</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "https://makeup.com.ua/categorys/3/"
+                Received: "Парфюмерия — купить оригинальные духи с бесплатной доставкой по Украине | Makeup.ua"
+                    at Object.&lt;anonymous> (/Users/nastya/jest0507/homework_makeup2.play.test.js:28:29)
+                    at runNextTicks (internal/process/task_queues.js:58:5)
+                    at processImmediate (internal/timers.js:434:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

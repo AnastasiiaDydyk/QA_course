@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622391144594' stop='1622391165427'>
+    <name>rozetka1.play.test.js</name>
+    <title>rozetka1.play.test.js</title>
+    <test-cases>
+        <test-case start='1622391144594' status='passed' stop='1622391151603'>
+            <name>open main page find article</name>
+            <title>open main page find article</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1622391151603' status='passed' stop='1622391154931'>
+            <name>find playstation5</name>
+            <title>find playstation5</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1622391154932' status='passed' stop='1622391161777'>
+            <name>buy and delete product</name>
+            <title>buy and delete product</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1622391161777' status='passed' stop='1622391165372'>
+            <name>open FAQ and find spesific topic</name>
+            <title>open FAQ and find spesific topic</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621015504747' stop='1621015504751'>
+    <name>sum.test.js</name>
+    <title>sum.test.js</title>
+    <test-cases>
+        <test-case start='1621015504747' status='passed' stop='1621015504750'>
+            <name>checking the sum function</name>
+            <title>checking the sum function</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

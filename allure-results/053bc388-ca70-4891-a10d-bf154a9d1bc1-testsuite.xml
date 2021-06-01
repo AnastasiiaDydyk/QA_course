@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1622395901905' stop='1622395928577'>
+    <name>rozetka1.play.test.js</name>
+    <title>rozetka1.play.test.js</title>
+    <test-cases>
+        <test-case start='1622395901906' status='passed' stop='1622395909080'>
+            <name>open main page find article</name>
+            <title>open main page find article</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1622395909080' status='passed' stop='1622395912551'>
+            <name>find playstation5</name>
+            <title>find playstation5</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1622395912551' status='passed' stop='1622395920083'>
+            <name>buy and delete product</name>
+            <title>buy and delete product</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1622395920083' status='passed' stop='1622395923651'>
+            <name>open FAQ and find spesific topic</name>
+            <title>open FAQ and find spesific topic</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1622395923651' status='passed' stop='1622395928533'>
+            <name>Change language and sity</name>
+            <title>Change language and sity</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

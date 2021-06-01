@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621166176858' stop='1621166182568'>
+    <name>rozetka1.play.test.js</name>
+    <title>rozetka1.play.test.js</title>
+    <test-cases>
+        <test-case start='1621166176858' status='failed' stop='1621166182518'>
+            <name>open main page find article</name>
+            <title>open main page find article</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "https://rozetka.com.ua/260325946/p260325946/"
+                Received: "https://rozetka.com.ua/consoles/c80020/"</message>
+                <stack-trace>Error: expect(received).toBe(expected) // Object.is equality
+                
+                Expected: "https://rozetka.com.ua/260325946/p260325946/"
+                Received: "https://rozetka.com.ua/consoles/c80020/"
+                    at Object.&lt;anonymous> (/Users/nastya/jest0507/rozetka1.play.test.js:42:31)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621265648534' stop='1621265650589'>
+    <name>dou_site.play.test.js</name>
+    <title>dou_site.play.test.js</title>
+    <test-cases>
+        <test-case start='1621265648534' status='failed' stop='1621265650551'>
+            <name>open the main page of dou site</name>
+            <title>open the main page of dou site</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: page.isVisible: selector: expected string, got undefined</message>
+                <stack-trace>Error: page.isVisible: selector: expected string, got undefined
+                    at Object.&lt;anonymous>.exports.tString (/Users/nastya/jest0507/node_modules/playwright/lib/protocol/validatorPrimitives.js:42:11)
+                    at /Users/nastya/jest0507/node_modules/playwright/lib/protocol/validatorPrimitives.js:81:27
+                    at Proxy.&lt;anonymous> (/Users/nastya/jest0507/node_modules/playwright/lib/client/channelOwner.js:64:99)
+                    at /Users/nastya/jest0507/node_modules/playwright/lib/client/frame.js:356:35
+                    at Frame._wrapApiCall (/Users/nastya/jest0507/node_modules/playwright/lib/client/channelOwner.js:77:34)
+                    at Frame.isVisible (/Users/nastya/jest0507/node_modules/playwright/lib/client/frame.js:355:21)
+                    at /Users/nastya/jest0507/node_modules/playwright/lib/client/page.js:499:60
+                    at Page._attributeToPage (/Users/nastya/jest0507/node_modules/playwright/lib/client/page.js:238:20)
+                    at Page.isVisible (/Users/nastya/jest0507/node_modules/playwright/lib/client/page.js:499:21)
+                    at Object.&lt;anonymous> (/Users/nastya/jest0507/dou_site.play.test.js:35:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

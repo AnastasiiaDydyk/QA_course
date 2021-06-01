@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621177215585' stop='1621177225452'>
+    <name>rozetka2.play.test.js</name>
+    <title>rozetka2.play.test.js</title>
+    <test-cases>
+        <test-case start='1621177215585' status='failed' stop='1621177225230'>
+            <name>buy and delete product</name>
+            <title>buy and delete product</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: page.isVisivle is not a function</message>
+                <stack-trace>TypeError: page.isVisivle is not a function
+                    at Object.&lt;anonymous> (/Users/nastya/jest0507/rozetka2.play.test.js:50:22)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
